@@ -160,6 +160,10 @@ PRODUCT_PACKAGES += \
 # Doze mode
 PRODUCT_PACKAGES += \
     XiaomiDoze
+	
+# GoogleCameraGo
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
 
 # DRM
 PRODUCT_PACKAGES += \
