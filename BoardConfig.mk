@@ -51,7 +51,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_VERSION := 4.9
-TARGET_PREBUILT_KERNEL := device/xiaomi/onclite/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := onclite-perf_defconfig  
   TARGET_KERNEL_SOURCE := kernel/xiaomi/onclite
