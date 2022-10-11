@@ -54,7 +54,7 @@ TARGET_KERNEL_VERSION := 4.9
 TARGET_PREBUILT_KERNEL := device/xiaomi/onclite/prebuilt/Image.gz-dtb
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := onclite-perf_defconfig  
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/onclite<
+  TARGET_KERNEL_SOURCE := kernel/xiaomi/onclite
 endif
 TARGET_KERNEL_CLANG_COMPILE := true
 
